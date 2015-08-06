@@ -1,0 +1,28 @@
+url: http://xd.fi
+
+timezone: Europe/Helsinki
+encoding: UTF-8
+
+title: xD.fi
+description:
+
+options:
+    language:   fi
+    theme:      default
+    elements:
+        description:    true
+        social:         true
+        menu:           true
+
+markdown: rdiscount
+
+highlighter: pygments
+
+exclude:
+    - README.md
+
+permalink: pretty
+
+gems:
+  - jekyll-sitemap
+
